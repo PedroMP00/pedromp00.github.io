@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #C8CFB9;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	color: #E9B800;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+#header {
+	flex-direction: column;
+	position:fixed
+	top:0;
+	left:0;
+	width: auto;
+	height:150px; /* change me */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    	font-size: 2em;
+    	font-weight: bold;
+    	background-color: #567577;
+    	color: #E9B800;
+
+    	font-family: 'Baloo Bhaijaan', cursive;
+}
+
+#content {
+	margin: auto;
+   	width: auto;
+	padding-top: 10px;
+    c	ursor:crosshair;
+}
+
+.flex-container {
+	font-family: 'Cousine', monospace;
+    height: 90%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+    justify-content: center;
+	display: flex;
+}
+.flex-item {
+    width: 70%;
+    height: auto;
+    /*line-height: 20px;*/
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+.links {
+	margin: 10px;
+	justify-content: space-around;
+	color: white;
+}
+
+.subheader {
+	font-style: italic;
+	color: rgba(255, 255, 255, 0.725);
+	text-decoration: none;
+	margin-left: 25px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.subheader:hover {
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.9);;
+}
+
+.title {
+	text-align: center;
+	background: #222;
+    color: #fff;
+    margin: 10px 15% 5px 15%;
+    padding: 5px 10px;
+}
+
+.projects {
+    margin: 3px 35% 0px 25%;
+    padding: 5px 10px;
+}
+
+.tableProjects {
+	margin: auto;
+	padding-top: 5px;
+	text-align: center;
+	width: 75%;
+	border-spacing: 10px;
+}
+
+.projectLanguage {
+	font-size: xx-large;
+	font-weight: bolder;
+	border-radius: 66px;
+	background-color: rgba(103, 145, 148, 0.74);
+	border: 2px solid black;
+	padding: 2px;
+}
+
+.projectName {
+	font-size: large;
+	background-color: rgba(255, 255, 255, 0.35);
+	border-radius: 66px;
+	border: 2px solid rgba(255, 255, 255, 0.65);
+	padding: 2px;
+	font-style: italic;
+}
+
+.tableProjects td:hover {
+	border: 2px solid #E9B800;
+}
+
+
+@media only screen 
+  and (max-device-width: 667px)  { 
+
+  	#header {
+	    font-size: medium;
+	    height: 110px;
+	}
+
+	.tableProject {
+		border-spacing: 1px;
+	}
+
+	.projectLanguage {
+		font-size: x-small;
+	}
+	  
+	.subheader {
+		margin-left: 2px;
+	}
+	  
+	.projectName {
+		font-size: xx-small;
+		padding: 5px;
+	}
+
+	h5 {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+}
