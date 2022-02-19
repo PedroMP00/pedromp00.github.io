@@ -7,6 +7,6 @@ Todo ha sido desarrollado por [PedroMP](https://github.com/PedroMP00)
 
 <table>
     <tr>
-        <td>**Gracias por apoyar <3**</td>
+        <td>Gracias por apoyar <3</td>
     </tr>
 </table>
