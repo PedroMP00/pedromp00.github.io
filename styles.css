@@ -15,7 +15,8 @@ h1 {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 }
-
+audio {
+	color: #E9B800
 #header {
 	flex-direction: column;
 	position:fixed
